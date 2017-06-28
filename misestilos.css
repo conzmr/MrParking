@@ -1,0 +1,105 @@
+#particles-js{
+    position: relative;
+    width:100%;
+    max-width: 1200px;
+    height:100%;
+    margin: auto;
+}
+
+#form{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+
+#formulario{
+    width: 100%;
+}
+
+form{
+    background: #05021C;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    color:white;
+    text-align:center;
+    margin: auto;
+}
+
+#logo{
+    padding-top: 15px;
+    width: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+input[class="insertar"] {
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px;
+}
+
+input[type="submit"]{
+    background: linear-gradient(#21E1F6,#12B8EB);
+    border: 0;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+    max-width: 110px;
+    width: 45%;
+    height: 35px;
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+
+}
+
+input[type="checkbox"]{
+    text-align: right;
+    width: 50px;
+    margin-right:-2px;
+}
+
+input[type="checkbox"], p#check{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+p#check{
+    font-size: 12px;
+}
+
+input[type="submit"]:active{
+    transform: scale(0.98);
+}
+
+
+@media(max-width: 480px){
+    form{
+        width: 95%;
+    }
+}
+
+#forgot{
+    color: #12B8EB;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 1%;
+    margin-top: 10px;
+}
+
+@media (min-width: 900px){
+    #form{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 800px){
+    #form{
+        margin-top: 35%;
+    }
+}

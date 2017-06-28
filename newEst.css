@@ -1,0 +1,75 @@
+#particles-js{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+}
+
+p{
+	color: red;
+}
+
+div #fondoTras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: black;
+	opacity: .85;
+}
+
+#title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	color: #ffee00;
+	font-size: 90px;
+	margin-bottom: -2%;
+	margin-top: -1.5%;
+}
+
+#lbl-dis{
+	background-color: #2682c1;
+	width: 100px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: .35%;
+	padding-bottom: .35%;
+	font-size: 25px;
+}
+
+#lbl-oc{
+	background-color: #ffee00;
+	width: 300px;
+	font-size: 25px;
+	padding-top: .35%;
+	padding-bottom: .35%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+#circulos{
+	width: 50%;
+	position: relative;
+	padding-top: 5%;
+}
+
+#mynav{
+	margin-bottom:0;
+}
+
+
+#signup{
+	width: 40%;
+	min-width: 20%;
+	margin-left: 30%;
+	padding-left: 0%;
+	margin-top: 5%;
+	position: fixed;
+
+}
+
+
+#header{
+	padding-bottom: -5%;
+}
